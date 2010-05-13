@@ -1,0 +1,17 @@
+h1 {
+  color: #333;
+}
+
+.pet-group h2 {
+  color: #333;
+}
+
+.pets {
+  clear: both;
+  overflow: hidden;
+}
+
+.pet {
+  float: left;
+  padding: 5px;
+}
