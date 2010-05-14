@@ -1,5 +1,13 @@
+.body-container {
+  width: 800px;
+}
+
 h1 {
   color: #333;
+}
+
+#shopping-cart h2 {
+  border-bottom: 1px solid #333;
 }
 
 .pet-group {
@@ -14,4 +22,11 @@ h1 {
 .pet {
   float: left;
   padding: 5px;
+}
+
+.pet .image-container {
+  height: 100px;
+}
+.pet img {
+  vertical-align: middle;
 }
