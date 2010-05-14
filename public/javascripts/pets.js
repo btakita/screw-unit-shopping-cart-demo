@@ -23,7 +23,7 @@
                 div(pet.name, {'class': "name"})
                 div("$" + pet.price, {'class': "price"})
               })
-              a("add to cart", {href: "#"})
+              a("add to cart", {href: "#", 'class': "shopping-cart-link"})
             })
           })
         })
