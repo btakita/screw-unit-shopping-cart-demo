@@ -1,7 +1,15 @@
 <html>
 <head>
   <title>Welcome to the Pet Store</title>
+  <script src="/javascripts/jquery-1.4.2.js" type="text/javascript"></script>
+  <script src="/javascripts/underscore.js" type="text/javascript"></script>
+  <script src="/javascripts/xmlbuilder-1.0.0.js" type="text/javascript"></script>
+  <script src="/javascripts/pets.js" type="text/javascript"></script>
   <link href="/stylesheets/index.css" media="all" rel="stylesheet" type="text/css"/>
+
+  <script type="text/javascript">
+    Pets.init("#pets");
+  </script>
 </head>
 <body>
 
@@ -10,42 +18,7 @@
 <div id="shopping-cart">
 </div>
 
-<div class="pet-group" id="cats">
-  <h2>Cats</h2>
-
-  <div class="pets">
-    <div id="cat-1" class="pet">
-      <div class="image-container">
-        <img src="/images/cat-1.jpg"/>
-      </div>
-      <div class="name">Sideways Glance</div>
-      <div class="price">$55</div>
-    </div>
-
-    <div id="cat-2" class="pet">
-      <div class="image-container">
-        <img src="/images/cat-2.jpg"/>
-      </div>
-      <div class="name">Backend</div>
-      <div class="price">$10</div>
-    </div>
-  </div>
-</div>
-
-<div class="pet-group" id="dogs">
-  <h2>Dogs</h2>
-
-</div>
-
-<div class="pet-group" id="hamsters">
-  <h2>Hamsters</h2>
-
-</div>
-
-<div class="pet-group" id="chickens">
-  <h2>Chickens</h2>
-
-</div>
+<div id="pets"></div>
 
 </body>
 </html>

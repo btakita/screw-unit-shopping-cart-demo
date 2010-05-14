@@ -2,13 +2,13 @@
 
 root_dir = File.expand_path("#{File.expand_path("#{File.dirname(__FILE__)}")}/..")
 
-ordered_js_files = [
-  "/javascripts/underscore.js"
-]
+require "rubygems"
+require "nokogiri"
 
-js_files = (ordered_js_files + Dir["#{root_dir}/public/javascripts/**/*.js"].map do |path|
-  File.expand_path(path).gsub("#{root_dir}/public", "")
-end).uniq
+doc = Nokogiri::HTML(File.read("#{root_dir}/public/index.html"))
+js_files = doc.css("script").map do |script|
+  script["src"]
+end.compact
 
 args = [
   "--framework-path=#{root_dir}/spec/screw-unit/lib",

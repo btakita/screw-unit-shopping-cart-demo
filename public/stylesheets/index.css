@@ -2,13 +2,13 @@ h1 {
   color: #333;
 }
 
-.pet-group h2 {
-  color: #333;
-}
-
-.pets {
+.pet-group {
   clear: both;
   overflow: hidden;
+}
+
+.pet-group h2 {
+  color: #333;
 }
 
 .pet {

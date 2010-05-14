@@ -1,7 +1,32 @@
 (function(window) {
   window.Pets = {};
 
+  Pets.init = function(parentSelector) {
+    $(function() {
+      Pets.render(parentSelector);
+    })
+  }
+
   Pets.render = function render(parentSelector) {
+    var parent = $(parentSelector);
+    _(Pets.all).each(function(petGroup) {
+      var b = new XmlBuilder({binding: this});
+      with (b) {
+        div({id: petGroup.name, 'class': "pet-group"}, function() {
+          h2(petGroup.name);
+          _(petGroup.all).each(function(pet) {
+            div({id: petGroup.name + "-" + pet.id, 'class': 'pet'}, function() {
+              div({'class': "image-container"}, function() {
+                img({src: pet.img})
+              })
+              div(pet.name, {'class': "name"})
+              div("$" + pet.price, {'class': "price"})
+            })
+          })
+        })
+      }
+      parent.append($(b.toString()))
+    })
   }
 
   Pets.all = [
@@ -11,31 +36,31 @@
         {
           id: 1,
           name: "Sideways Glance",
-          img: "/images/cats-1.jpg",
+          img: "/images/cat-1.jpg",
           price: 55
         },
         {
           id: 2,
           name: "Backend",
-          img: "/images/cats-2.jpg",
+          img: "/images/cat-2.jpg",
           price: 10
         },
         {
           id: 3,
           name: "Sideways Glance",
-          img: "/images/cats-3.jpg",
+          img: "/images/cat-3.jpg",
           price: 55
         },
         {
           id: 4,
           name: "Sideways Glance",
-          img: "/images/cats-4.jpg",
+          img: "/images/cat-4.jpg",
           price: 55
         },
         {
           id: 5,
           name: "Sideways Glance",
-          img: "/images/cats-5.jpg",
+          img: "/images/cat-5.jpg",
           price: 55
         }
       ]
