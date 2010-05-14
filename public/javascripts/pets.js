@@ -19,8 +19,11 @@
               div({'class': "image-container"}, function() {
                 img({src: pet.img})
               })
-              div(pet.name, {'class': "name"})
-              div("$" + pet.price, {'class': "price"})
+              div({'class': "pet-text"}, function() {
+                div(pet.name, {'class': "name"})
+                div("$" + pet.price, {'class': "price"})
+              })
+              a("add to cart", {href: "#"})
             })
           })
         })

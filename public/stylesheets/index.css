@@ -28,6 +28,10 @@ h1 {
 .pet .image-container {
   height: 100px;
 }
-.pet img {
+.pet .image-container img {
   vertical-align: middle;
+}
+
+.pet .pet-text {
+  height: 75px;
 }
