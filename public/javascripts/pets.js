@@ -47,21 +47,21 @@
         },
         {
           id: 3,
-          name: "Sideways Glance",
+          name: "Shy guy",
           img: "/images/cat-3.jpg",
-          price: 55
+          price: 25
         },
         {
           id: 4,
-          name: "Sideways Glance",
+          name: "Dark and cute",
           img: "/images/cat-4.jpg",
-          price: 55
+          price: 40
         },
         {
           id: 5,
-          name: "Sideways Glance",
+          name: "Rock God",
           img: "/images/cat-5.jpg",
-          price: 55
+          price: 16
         }
       ]
     },
@@ -71,33 +71,33 @@
       all: [
         {
           id: 1,
-          name: "Sideways Glance",
+          name: "Alert",
           img: "/images/dog-1.jpg",
-          price: 55
+          price: 99
         },
         {
           id: 2,
-          name: "Sideways Glance",
+          name: "Full Package",
           img: "/images/dog-2.jpg",
-          price: 55
+          price: 23
         },
         {
           id: 3,
-          name: "Sideways Glance",
+          name: "Toy",
           img: "/images/dog-3.jpg",
-          price: 55
+          price: 3
         },
         {
           id: 4,
-          name: "Sideways Glance",
+          name: "Rough & Tough",
           img: "/images/dog-4.jpg",
-          price: 55
+          price: 56
         },
         {
           id: 5,
-          name: "Sideways Glance",
+          name: "Tired",
           img: "/images/dog-5.jpg",
-          price: 55
+          price: 77
         }
       ]
     },
@@ -107,33 +107,33 @@
       all: [
         {
           id: 1,
-          name: "Sideways Glance",
+          name: "Hercules",
           img: "/images/hamster-1.jpg",
-          price: 55
+          price: 30
         },
         {
           id: 2,
-          name: "Sideways Glance",
+          name: "Snowflake",
           img: "/images/hamster-2.jpg",
-          price: 55
+          price: 32
         },
         {
           id: 3,
-          name: "Sideways Glance",
+          name: "Pear",
           img: "/images/hamster-3.jpg",
-          price: 55
+          price: 12
         },
         {
           id: 4,
-          name: "Sideways Glance",
+          name: "Best Buds",
           img: "/images/hamster-4.jpg",
-          price: 55
+          price: 56
         },
         {
           id: 5,
-          name: "Sideways Glance",
+          name: "Jazz Trio",
           img: "/images/hamster-5.jpg",
-          price: 55
+          price: 78
         }
       ]
     },
@@ -143,33 +143,33 @@
       all: [
         {
           id: 1,
-          name: "Sideways Glance",
+          name: "Babies",
           img: "/images/chicken-1.jpg",
-          price: 55
+          price: 50
         },
         {
           id: 2,
-          name: "Sideways Glance",
+          name: "Connesour",
           img: "/images/chicken-2.jpg",
-          price: 55
+          price: 89
         },
         {
           id: 3,
-          name: "Sideways Glance",
+          name: "Mohawk",
           img: "/images/chicken-3.jpg",
-          price: 55
+          price: 73
         },
         {
           id: 4,
-          name: "Sideways Glance",
+          name: "Field Chicken",
           img: "/images/chicken-4.jpg",
-          price: 55
+          price: 34
         },
         {
           id: 5,
-          name: "Sideways Glance",
+          name: "Back Room Dealer",
           img: "/images/chicken-5.jpg",
-          price: 55
+          price: 53
         }
       ]
     }
