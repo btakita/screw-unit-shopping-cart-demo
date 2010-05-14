@@ -1,5 +1,5 @@
 .body-container {
-  width: 900px;
+  width: 1200px;
 }
 
 h1 {
@@ -21,7 +21,8 @@ h1 {
 
 .pet {
   float: left;
-  padding: 5px;
+  width: 150px;
+  padding: 20px;
 }
 
 .pet .image-container {
